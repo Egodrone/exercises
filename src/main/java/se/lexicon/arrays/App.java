@@ -6,6 +6,7 @@ import java.util.Scanner;
 import java.lang.Math;
 import java.util.Random;
 
+
 public class App {
 
     public static int[] numberArr2 = new int[]{1, 15, 20};
