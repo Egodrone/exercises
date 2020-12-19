@@ -1,10 +1,12 @@
 package se.lexicon.arrays;
 
 
+
 import java.util.Arrays;
 import java.util.Scanner;
 import java.lang.Math;
 import java.util.Random;
+
 
 
 public class App {
@@ -45,7 +47,6 @@ public class App {
         for (String name : names2) {
             System.out.print(name + " ");
         }
-        //System.out.println("Sort string array: " + names2);
 
 
         // Ex 4  Write a program which will copy the elements of one array into another
@@ -278,7 +279,7 @@ public class App {
             }
         }
         temp[j++] = arr[num - 1];
-        // Changing original arr
+        // Changing original array
         for (int i = 0; i < j; i++) {
             arr[i] = temp[i];
         }
@@ -286,7 +287,6 @@ public class App {
     }
 
     public static int indexOf(int[] numbers, int scannerValue) {
-        //return names.indexOf(scannerValue);
         int indexFound;
         Arrays.sort(numbers);
         indexFound = Arrays.binarySearch(numbers, scannerValue);
